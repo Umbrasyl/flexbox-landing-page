@@ -54,6 +54,7 @@ a {
 
 h1 {
     margin: 0;
+    font-size: 36px;
 }
 
 img.header-image {
@@ -80,10 +81,10 @@ button {
     border: 0;
     flex: 0 0 auto;
     padding: 10px 24px;
-    background-color: #295ca4;
+    background-color: #4f94ec;
     color: #F9FAF8;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 14px;
 }
 
 .content {
@@ -97,6 +98,7 @@ button {
     padding: 100px;
     align-items: center;
     gap: 100px;
+    color: #1F2937;
 }
 
 .cards {
@@ -115,7 +117,48 @@ button {
 }
 
 .card img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote h1{
+    font-style: italic;
+    font-weight: 200;
+}
+
+.call-to-action {
+    background-color: #4f94ec;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    margin: 70px;
+    color: #F9FAF8;
+}
+
+.right .signup {
+    border: 1px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 200;
 }
